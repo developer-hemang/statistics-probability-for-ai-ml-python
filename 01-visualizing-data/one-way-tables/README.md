@@ -35,11 +35,10 @@ Here, each trading day is an observation/individual.
 
 For example:
 
-`
-01-Sep → one observation
-02-Sep → one observation
-03-Sep → one observation
-`
+- 01-Sep → one observation/individual
+- 02-Sep → one observation/individual
+- 03-Sep → one observation/individual
+
 
 And the variables are:
 
