@@ -226,3 +226,153 @@ An interval variable has:
 - But no meaningful true zero
 
 > Interval = Equal intervals, but zero doesn't mean "none."
+
+> Simple Defination: Interval measurement is a scale where the order and differences between values are meaningful, but zero is not a true "none" point.
+
+An interval measurement is a measurement scale where:
+
+- The values have a meaningful order.
+- The difference between values is equal and meaningful.
+- There is no true zero point.
+
+## 🌡️ Interval Measurement — Simple Example
+
+Imagine the temperature outside:
+
+| City   | Temperature |
+| ------ | ----------: |
+| Mumbai |        30°C |
+| Delhi  |        35°C |
+| Jaipur |        40°C |
+
+### What makes this an interval measurement?
+
+The difference between temperatures is meaningful:
+
+- Delhi − Mumbai = 5°C
+- Jaipur − Delhi = 5°C
+
+So the intervals are equal.
+
+But 0°C does not mean "no temperature."
+
+0°C simply represents a particular temperature point on the Celsius scale.
+
+That's why we cannot say:
+
+> 40°C is twice as hot as 20°C.
+
+So the intervals are equal.
+
+The difference between them is 20°C, but the ratio 40 / 20 = 2 does not have the same meaningful interpretation.
+
+
+# ⚖️ Ratio Measurement
+
+Simple definition
+
+> A ratio variable tells us how much, has equal measurement intervals, and has a meaningful zero, so statements like “twice as much” are meaningful.
+
+A ratio measurement is a measurement scale where:
+
+- Values can be ordered.
+- The difference between values is meaningful.
+- The intervals between values are equal.
+- There is a true zero, meaning zero represents the complete absence of the quantity.
+- Because of the true zero, ratios are meaningful.
+
+
+## 📈 Stock Market Example: Trading Volume
+
+Trading volume is a very good ratio-scale example.
+
+| Stock | Trading Volume |
+| ----- | -------------: |
+| A     |   1,000 shares |
+| B     |   2,000 shares |
+| C     |   4,000 shares |
+
+ 
+### 1. There is an order
+
+```python
+1,000 < 2,000 < 4,000
+```
+
+So we know which has more volume.
+
+### 2. Differences are meaningful
+
+```python
+2,000 - 1,000 = 1,000
+4,000 - 2,000 = 2,000
+```
+
+A difference of 1,000 shares always represents 1,000 shares.
+
+
+### 3. There is a true zero
+
+```python
+0 shares traded
+```
+means no shares were traded.
+
+
+### 4. Ratios are meaningful
+
+This is the important part:
+
+```python
+4,000 / 2,000 = 2
+```
+
+So we can correctly say:
+
+> 4,000 shares is twice the trading volume of 2,000 shares.
+
+And:
+
+```python
+So 4,000 shares is four times 1,000 shares.
+```
+### That's why trading volume is a strong real-world example of ratio measurement.
+
+# 📊 One-Way Table
+
+A one-way table is a table that summarizes one variable by showing its different values or categories and how many observations fall into each category.
+
+> One variable → count how often each value/category occurs → one-way table
+
+## 📈 Example with NIFTY
+
+| Day | Market Condition |
+| --- | ---------------- |
+| 1   | Bullish          |
+| 2   | Neutral          |
+| 3   | Bullish          |
+| 4   | Bearish          |
+| 5   | Neutral          |
+| 6   | Bullish          |
+| 7   | Bearish          |
+| 8   | Neutral          |
+| 9   | Bullish          |
+| 10  | Neutral          |
+
+
+We have 10 observations, but we're studying only one variable:
+
+```
+Market Condition
+```
+
+We can summarize it:
+
+| Market Condition | Frequency |
+| ---------------- | --------: |
+| Bullish          |         4 |
+| Neutral          |         4 |
+| Bearish          |         2 |
+| **Total**        |    **10** |
+
+This is a one-way frequency table.
